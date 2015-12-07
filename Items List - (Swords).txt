@@ -1,7 +1,28 @@
 Gems{
-	Ruby - adds attack damage
-	Emerald - adds item drop chance/frequency
-	Sapphire - adds defense
+	Ruby (Red) - adds attack damage
+		Tier I - 2
+		Tier II - 5
+		Tier III - 9
+		Tier IV - 14
+		Tier V - 20
+	Emerald (Green) - adds item drop chance/frequency
+		Tier I - 10% for 1 extra
+		Tier II - 20% chance for 1 extra
+		Tier III - 30% chance for 2 extra
+		Tier IV - 40% chance for 2 extra
+		Tier V - 50% chance for 3 extra
+	Sapphire (Blue) - adds defense
+		Tier I - 2
+		Tier II - 5
+		Tier III - 9
+		Tier IV - 14
+		Tier V - 20
+
+	Garnet = Ruby + Sapphire
+	Turquoise = Emerald + Sapphire
+	Topaz = Ruby + Emerald
+
+	Quartz = Ruby + Emerald + Sapphire
 }
 
 Swords{
