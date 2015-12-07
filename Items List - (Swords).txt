@@ -38,7 +38,7 @@ Blades
 		Durability - 2000
 
 Hilt
-	Unsocketted Hilt - (S)tone
+	Hilt - (S)tone
 		"S S"
 		" S "
 		" S "
@@ -48,7 +48,7 @@ Hilt
 		" S "
 		" S "
 		Durability - +30
-	Reinforced Unsocketted Hilt - (I)ron
+	Reinforced Hilt - (I)ron
 		"I I"
 		" I "
 		" I "
