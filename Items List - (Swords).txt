@@ -1,0 +1,66 @@
+Gems{
+	Ruby - adds attack damage
+	Emerald - adds item drop chance/frequency
+	Sapphire - adds defense
+}
+
+Swords{
+Blades
+	Stone Edged Wood Blade - (W)ood + (S)tone
+		"WS "
+		"WS "
+		"WS "
+		Damage - 5.5
+		Durability - 70
+	Iron Edged Gold Blade - (G)old + (I)ron
+		"GI "
+		"GI "
+		"GI "
+		Damage - 6
+		Durability - 40
+	Iron Edged Stone Blade - (I)ron + (S)tone
+		"IS "
+		"IS "
+		"IS "
+		Damage - 6.5
+		Durability - 140
+	Diamond Edged Iron Blade - (D)iamond + (I)ron
+		"DI "
+		"DI "
+		"DI "
+		Damage - 7.5
+		Durability - 260
+	Diamond Edged Obsidian Blade - (D)iamond + (O)bsidian
+		"DO "
+		"DO "
+		"DO "
+		Damage - 8.5
+		Durability - 2000
+
+Hilt
+	Unsocketted Hilt - (S)tone
+		"S S"
+		" S "
+		" S "
+		Durability - +30
+	Socketted Hilt - (S)tone + (G)em of choice
+		"SGS"
+		" S "
+		" S "
+		Durability - +30
+	Reinforced Unsocketted Hilt - (I)ron
+		"I I"
+		" I "
+		" I "
+		Durability - +60
+	Reinforced Socketted Hilt - (I)ron + (G)em of choice
+		"IGI"
+		" I "
+		" I "
+		Durability - +60
+
+Sword - (B)lade + (H)ilt
+	"B  "
+	"H  "
+	"   "
+}
