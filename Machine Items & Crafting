@@ -1,18 +1,18 @@
 Valuable Ores {
 	Machines {
 		Metal(Crafting) { // 1x Machine Core, 2x Metal, 3x Cobblestone, 1x Redstone Repeater 
-							      Redstone_Repeater	
-			Metal			    Machine_Core*		    Metal
+						Redstone_Repeater	
+			Metal			Machine_Core*		    	    Metal
 			Cobblestone		Cobblestone			    Cobblestone
 		}
 		Quartz(Crafting) { // 1x Machine Core, 2x Quartz, 3x Netherrack, 1x Redstone Repeater
-							      Redstone Repeater	
-			Quartz			  Machine_Core*		    Quartz
+					        Redstone Repeater	
+			Quartz			Machine_Core*		            Quartz
 			Netherrack		Netherrack			    Netherrack
 		}
 		Gems(Crafting) { // 1x Super Machine Core, 2x Gems, 3x Obsidian, 1x Redstone Repeater
-							      Redstone_Repeater	
-			Gem 			    Super_Machine_Core*	Gem
+						  Redstone_Repeater	
+			Gem 			  Super_Machine_Core*		      Gem
 			Obsidian		  Obsidian			      Obsidian
 		}
 	}
