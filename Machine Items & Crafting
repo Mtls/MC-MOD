@@ -61,5 +61,8 @@ Valuable Ores {
 		Diaron(Crafting){ // 1x Iron_Ingot, 1x Diamond
 			Iron_Ingot		Diamond
 		}
+		Goldiron(Crafting){ // 1x Gold_Ingot, 1x Iron_Ingot
+			Iron_Ingot		Gold_Ingot
+		}
 	}
 }
