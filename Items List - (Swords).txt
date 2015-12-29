@@ -1,87 +1,259 @@
 Gems{
-	Ruby (Red) - adds attack damage
+	Ruby (Red) - adds attack damage to weapons
 		Tier I - 2
 		Tier II - 5
 		Tier III - 9
 		Tier IV - 14
 		Tier V - 20
-	Emerald (Green) - adds item drop chance/frequency
-		Tier I - 10% for 1 extra
-		Tier II - 20% chance for 1 extra
-		Tier III - 30% chance for 2 extra
-		Tier IV - 40% chance for 2 extra
-		Tier V - 50% chance for 3 extra
-	Sapphire (Blue) - adds defense
+	Emerald (Green) - adds efficiency to tools
 		Tier I - 2
 		Tier II - 5
 		Tier III - 9
 		Tier IV - 14
 		Tier V - 20
-
-	Garnet = Ruby + Sapphire
-	Turquoise = Emerald + Sapphire
-	Topaz = Ruby + Emerald
-
-	Quartz = Ruby + Emerald + Sapphire
+	Sapphire (Blue) - adds defense to armor
+		Tier I - 2
+		Tier II - 5
+		Tier III - 9
+		Tier IV - 14
+		Tier V - 20
 }
 
 Swords{
-Blades
-	Stone Edged Wood Blade - (W)ood + (S)tone
-		"WS "
-		"WS "
-		"WS "
-		Damage - 5.5
-		Durability - 70
-	Iron Edged Gold Blade - (G)old + (I)ron
-		"GI "
-		"GI "
-		"GI "
-		Damage - 6
-		Durability - 40
-	Iron Edged Stone Blade - (I)ron + (S)tone
-		"IS "
-		"IS "
-		"IS "
-		Damage - 6.5
-		Durability - 140
-	Diamond Edged Iron Blade - (D)iamond + (I)ron
-		"DI "
-		"DI "
-		"DI "
-		Damage - 7.5
-		Durability - 260
-	Diamond Edged Obsidian Blade - (D)iamond + (O)bsidian
-		"DO "
-		"DO "
-		"DO "
-		Damage - 8.5
-		Durability - 2000
+/*
+	Blades - Old
+		Stone Edged Wood Blade - (W)ood + (S)tone
+			"WS "
+			"WS "
+			"WS "
+			Damage - 5.5
+			Durability - 70
+		Iron Edged Gold Blade - (G)old + (I)ron
+			"GI "
+			"GI "
+			"GI "
+			Damage - 6
+			Durability - 40
+		Iron Edged Stone Blade - (I)ron + (S)tone
+			"IS "
+			"IS "
+			"IS "
+			Damage - 6.5
+			Durability - 140
+		Diamond Edged Iron Blade - (D)iamond + (I)ron
+			"DI "
+			"DI "
+			"DI "
+			Damage - 7.5
+			Durability - 260
+		Diamond Edged Obsidian Blade - (D)iamond + (O)bsidian
+			"DO "
+			"DO "
+			"DO "
+			Damage - 8.5
+			Durability - 2000
+*/
 
-Hilt
-	Hilt - (S)tone
-		"S S"
-		" S "
-		" S "
-		Durability - +30
-	Socketted Hilt - (S)tone + (G)em of choice
-		"SGS"
-		" S "
-		" S "
-		Durability - +30
-	Reinforced Hilt - (I)ron
-		"I I"
-		" I "
-		" I "
-		Durability - +60
-	Reinforced Socketted Hilt - (I)ron + (G)em of choice
-		"IGI"
-		" I "
-		" I "
-		Durability - +60
+	Blades
+		Recipe - (M)aterial
+			"M  "
+			"M  "
+			"M  "
+		Wooden Blade - (W)ood
+			Damage - 5
+			Durability - 60
+		Gold Blade - (G)old
+			Damage - 5
+			Durability - 33
+		Stone Blade - (S)tone
+			Damage - 6
+			Durability - 132
+		Iron Blade - (I)ron
+			Damage - 7
+			Durability - 251
+		Obsidian Blade - (O)bsidian
+			Damage - 7.5
+			Durability - 2000
+		Redstone Blade - (R)edstone
+			Damage - 8
+			Durability - 800
+		Diamond Blade - (D)iamond
+			Damage - 8
+			Durability - 1562
+		
 
-Sword - (B)lade + (H)ilt
-	"B  "
-	"H  "
-	"   "
+	Hilt
+		Hilt - (S)tone
+			"S S"
+			" S "
+			" S "
+			Durability - +30
+		Socketted Hilt - (S)tone + (G)em of choice
+			"SGS"
+			" S "
+			" S "
+			Durability - +30
+		Reinforced Hilt - (I)ron
+			"I I"
+			" I "
+			" I "
+			Durability - +60
+		Reinforced Socketted Hilt - (I)ron + (G)em of choice
+			"IGI"
+			" I "
+			" I "
+			Durability - +60
+
+	Sword - (B)lade + (H)ilt
+		"B  "
+		"H  "
+		"   "
+}
+
+Tools (Pickaxe, Axe, Shovel, Hoe){
+	Pickaxe Head
+		Recipe - (M)aterial
+			"MMM"
+			"   "
+			"   "
+	Axe Head
+		Recipe - (M)aterial
+			"MM "
+			"M  "
+			"   "
+	Shovel Head
+		Recipe - (M)aterial
+			" M "
+			"   "
+			"   "
+	Hoe Head
+		Recipe - (M)aterial
+			"MM "
+			"   "
+			"   "
+	Stats
+		Wooden Head - (W)ood
+			Damage - 4
+			Durability - 60
+		Gold Head - (G)old
+			Damage - 4
+			Durability - 33
+		Stone Head - (S)tone
+			Damage - 5
+			Durability - 132
+		Iron Head - (I)ron
+			Damage - 6
+			Durability - 251
+		Obsidian Head - (O)bsidian
+			Damage - 6.5
+			Durability - 2000
+		Redstone Head - (R)edstone
+			Damage - 7
+			Durability - 800
+		Diamond Head - (D)iamond
+			Damage - 7
+			Durability - 1562
+	
+	Handle
+		Handle - (S)tone
+			"S S"
+			" S "
+			" S "
+			Durability - +30
+		Socketted Handle - (S)tone + (G)em of choice
+			"SGS"
+			" S "
+			" S "
+			Durability - +30
+		Reinforced Handle - (I)ron
+			"I I"
+			" I "
+			" I "
+			Durability - +60
+		Reinforced Socketted Handle - (I)ron + (G)em of choice
+			"IGI"
+			" I "
+			" I "
+			Durability - +60
+
+	Tool - (H)ead + (h)andle
+		"H  "
+		"h  "
+		"   "
+}
+
+Armour{
+	Normal Armor - (M)aterial
+		E.g. Chestpiece
+		"M M"
+		"MMM"
+		"MMM"
+		
+	Socketed Headpiece - (M)aterial + (G)em
+		"MGM"
+		"M M"
+		"   "
+	Socketed Chestpiece - (M)aterial + (G)em
+		"M M"
+		"MGM"
+		"MMM"
+	Socketed Pants - (M)aterial + (G)em
+		"MGM"
+		"M M"
+		"M M"
+	Socketed Boots - (M)aterial + (G)em
+		" G "
+		"M M"
+		"M M"
+		
+	Materials
+		Wood
+			Full Defence - 6
+			Durability
+				Head - 40
+				Chest - 60
+				Legs - 60
+				Boots - 40
+		Leather
+			Full Defence - 7
+			Durability
+				Head - 56
+				Chest - 81
+				Legs - 76
+				Boots - 66
+		Gold
+			Full Defence - 11
+			Durability
+				Head - 78
+				Chest - 113
+				Legs - 106
+				Boots - 92
+		Iron
+			Full Defence - 15
+			Durability
+				Head - 166
+				Chest - 241
+				Legs - 226
+				Boots - 196
+		Obsidian
+			Full Defence - 15
+			Durability
+				Head - 300
+				Chest - 500
+				Legs - 500
+				Boots - 350
+		Redstone
+			Full Defence - 18
+			Durability
+				Head - 250
+				Chest - 400
+				Legs - 400
+				Boots - 300
+		Diamond
+			Full Defence - 20
+			Durability
+				Head - 364
+				Chest - 529
+				Legs - 496
+				Boots - 430
 }
