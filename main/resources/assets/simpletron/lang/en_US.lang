@@ -1,3 +1,5 @@
+< en_US.lang - English localization file for the mod Tutorial >
+
 item.test_item.name=Empty Excalibur
 item.Diaron.name=Diaron
 item.Goldiron.name=Goldiron
@@ -22,5 +24,17 @@ item.sapphire_t2.name=Sapphire (Tier II)
 item.sapphire_t3.name=Sapphire (Tier III)
 item.sapphire_t4.name=Sapphire (Tier IV)
 item.sapphire_t5.name=Sapphire (Tier V)
+
+tile.MetalMach.name= Metal Machine
+tile.QuartzMach.name=Quartz Machine
+tile.GemsMach.name=GemsMach
+tile.BurnablePower.name=Burnable Power
+tile.LavaPower.name=Lava Power
+tile.FoodPower.name=Food Power
+tile.Machine_Core.name=Machine Core
+tile.Super_Machine_Core.name=Super Machine Core
+tile.Liquid_Furnace.name=Liquid Furnace
+tile.Food_Furnace.name=Food Furnace
+tile.Gem_Extractor.name=Gem Extractor
 
 itemGroup.tabSimpletron=Simpletron Mod
