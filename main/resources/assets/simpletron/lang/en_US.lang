@@ -37,5 +37,8 @@ tile.Super_Machine_Core.name=Super Machine Core
 tile.Liquid_Furnace.name=Liquid Furnace
 tile.Food_Furnace.name=Food Furnace
 tile.Gem_Extractor.name=Gem Extractor
+tile.ruby_block.name=Ruby Block
+tile.emerald_block.name=Emerald Block
+tile.sapphire_block.name=Sapphire Block
 
 itemGroup.tabSimpletron=Simpletron Mod

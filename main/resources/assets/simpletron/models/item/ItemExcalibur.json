@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "simpletron:items/test_item"
+        "layer0": "simpletron:items/ItemExcalibur"
     },
     "display": {
         "thirdperson": {

@@ -24,6 +24,9 @@ public class SimpletronBlocks {
 	public static Block Liquid_Furnace;
 	public static Block Food_Furnace;
 	public static Block Gem_Extractor;
+	public static Block ruby_block;
+	public static Block emerald_block;
+	public static Block sapphire_block;
 
 	public static void init(){
 		test_block = new Block(Material.cloth).setUnlocalizedName("test_block").setCreativeTab(Simpletron.tabSimpletron);		
@@ -37,7 +40,10 @@ public class SimpletronBlocks {
 		Super_Machine_Core = new Block(Material.rock).setUnlocalizedName("Super_Machine_Core").setCreativeTab(Simpletron.tabSimpletron);	
 		Liquid_Furnace = new Block(Material.rock).setUnlocalizedName("Liquid_Furnace").setCreativeTab(Simpletron.tabSimpletron);	
 		Food_Furnace = new Block(Material.rock).setUnlocalizedName("Food_Furnace").setCreativeTab(Simpletron.tabSimpletron);	
-		Gem_Extractor = new Block(Material.rock).setUnlocalizedName("Gem_Extractor").setCreativeTab(Simpletron.tabSimpletron);	
+		Gem_Extractor = new Block(Material.rock).setUnlocalizedName("Gem_Extractor").setCreativeTab(Simpletron.tabSimpletron);
+		ruby_block = new Block(Material.rock).setUnlocalizedName("ruby_block").setCreativeTab(Simpletron.tabSimpletron);
+		emerald_block = new Block(Material.iron).setUnlocalizedName("emerald_block").setCreativeTab(Simpletron.tabSimpletron);
+		sapphire_block = new Block(Material.iron).setUnlocalizedName("sapphire_block").setCreativeTab(Simpletron.tabSimpletron);
 	}
 	
 	public static void register(){
@@ -53,6 +59,9 @@ public class SimpletronBlocks {
 		GameRegistry.registerBlock(Liquid_Furnace, Liquid_Furnace.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(Food_Furnace, Food_Furnace.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(Gem_Extractor, Gem_Extractor.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(ruby_block, ruby_block.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(emerald_block, emerald_block.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(sapphire_block, sapphire_block.getUnlocalizedName().substring(5));
 	}
 	
 	public static void registerRenders(){
@@ -68,6 +77,9 @@ public class SimpletronBlocks {
 		registerRender(Liquid_Furnace);
 		registerRender(Food_Furnace);
 		registerRender(Gem_Extractor);
+		registerRender(ruby_block);
+		registerRender(emerald_block);
+		registerRender(sapphire_block);
 	}
 	
 	public static void registerRender(Block block){
