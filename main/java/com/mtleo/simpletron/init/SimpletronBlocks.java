@@ -1,6 +1,7 @@
 package com.mtleo.simpletron.init;
 
 import com.mtleo.simpletron.Reference;
+import com.mtleo.simpletron.Simpletron;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -25,18 +26,18 @@ public class SimpletronBlocks {
 	public static Block Gem_Extractor;
 
 	public static void init(){
-		test_block = new Block(Material.cloth).setUnlocalizedName("test_block");		
-		MetalMach = new Block(Material.rock).setUnlocalizedName("MetalMach");		
-		QuartzMach = new Block(Material.rock).setUnlocalizedName("QuartzMach");		
-		GemsMach = new Block(Material.rock).setUnlocalizedName("GemsMach");		
-		BurnablePower = new Block(Material.rock).setUnlocalizedName("BurnablePower");		
-		LavaPower = new Block(Material.rock).setUnlocalizedName("LavaPower");		
-		FoodPower = new Block(Material.rock).setUnlocalizedName("FoodPower");	
-		Machine_Core = new Block(Material.rock).setUnlocalizedName("Machine_Core");	
-		Super_Machine_Core = new Block(Material.rock).setUnlocalizedName("Super_Machine_Core");	
-		Liquid_Furnace = new Block(Material.rock).setUnlocalizedName("Liquid_Furnace");	
-		Food_Furnace = new Block(Material.rock).setUnlocalizedName("Food_Furnace");	
-		Gem_Extractor = new Block(Material.rock).setUnlocalizedName("Gem_Extractor");	
+		test_block = new Block(Material.cloth).setUnlocalizedName("test_block").setCreativeTab(Simpletron.tabSimpletron);		
+		MetalMach = new Block(Material.rock).setUnlocalizedName("MetalMach").setCreativeTab(Simpletron.tabSimpletron);		
+		QuartzMach = new Block(Material.rock).setUnlocalizedName("QuartzMach").setCreativeTab(Simpletron.tabSimpletron);		
+		GemsMach = new Block(Material.rock).setUnlocalizedName("GemsMach").setCreativeTab(Simpletron.tabSimpletron);		
+		BurnablePower = new Block(Material.rock).setUnlocalizedName("BurnablePower").setCreativeTab(Simpletron.tabSimpletron);		
+		LavaPower = new Block(Material.rock).setUnlocalizedName("LavaPower").setCreativeTab(Simpletron.tabSimpletron);		
+		FoodPower = new Block(Material.rock).setUnlocalizedName("FoodPower").setCreativeTab(Simpletron.tabSimpletron);	
+		Machine_Core = new Block(Material.rock).setUnlocalizedName("Machine_Core").setCreativeTab(Simpletron.tabSimpletron);	
+		Super_Machine_Core = new Block(Material.rock).setUnlocalizedName("Super_Machine_Core").setCreativeTab(Simpletron.tabSimpletron);	
+		Liquid_Furnace = new Block(Material.rock).setUnlocalizedName("Liquid_Furnace").setCreativeTab(Simpletron.tabSimpletron);	
+		Food_Furnace = new Block(Material.rock).setUnlocalizedName("Food_Furnace").setCreativeTab(Simpletron.tabSimpletron);	
+		Gem_Extractor = new Block(Material.rock).setUnlocalizedName("Gem_Extractor").setCreativeTab(Simpletron.tabSimpletron);	
 	}
 	
 	public static void register(){
