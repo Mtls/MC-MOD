@@ -17,6 +17,8 @@ public class Simpletron
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
+	public static final SimpletronTab tabSimpletron = new SimpletronTab("tabSimpletron");
+	
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
