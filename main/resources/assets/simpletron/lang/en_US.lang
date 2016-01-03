@@ -1,8 +1,9 @@
 < en_US.lang - English localization file for the mod Tutorial >
 
-item.test_item.name=Empty Excalibur
+item.test_item.name=Broken Excalibur
 item.Diaron.name=Diaron
 item.Goldiron.name=Goldiron
+item.ItemExcalibur.name=Hollow Excalibur
 
 item.ruby_nugget.name=Ruby Nugget
 item.ruby_t1.name=Ruby (Tier I)

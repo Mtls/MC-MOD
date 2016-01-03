@@ -2,16 +2,19 @@ package com.mtleo.simpletron.init;
 
 import com.mtleo.simpletron.Reference;
 import com.mtleo.simpletron.Simpletron;
+import com.mtleo.simpletron.items.ItemExcalibur;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class SimpletronItems {
 	public static Item test_item;
 	public static Item Diaron;
 	public static Item Goldiron;
+	public static Item excalibur;
 	
 	public static Item ruby_nugget;
 	public static Item ruby_t1;
@@ -38,6 +41,7 @@ public class SimpletronItems {
 		test_item = new Item().setUnlocalizedName("test_item").setCreativeTab(Simpletron.tabSimpletron);
 		Diaron = new Item().setUnlocalizedName("Diaron").setCreativeTab(Simpletron.tabSimpletron);
 		Goldiron = new Item().setUnlocalizedName("Goldiron").setCreativeTab(Simpletron.tabSimpletron);
+		excalibur = new ItemExcalibur(ToolMaterial.EMERALD).setUnlocalizedName("ItemExcalibur").setCreativeTab(Simpletron.tabSimpletron);
 		
 		// Rubies
 		ruby_nugget = new Item().setUnlocalizedName("ruby_nugget").setCreativeTab(Simpletron.tabSimpletron);
@@ -68,6 +72,7 @@ public class SimpletronItems {
 		GameRegistry.registerItem(test_item, test_item.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(Diaron, Diaron.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(Goldiron, Goldiron.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(excalibur, excalibur.getUnlocalizedName().substring(5));
 		
 		// Rubies
 		GameRegistry.registerItem(ruby_nugget, ruby_nugget.getUnlocalizedName().substring(5));
@@ -100,6 +105,7 @@ public class SimpletronItems {
 		registerRender(test_item);
 		registerRender(Diaron);
 		registerRender(Goldiron);
+		registerRender(excalibur);
 		
 		// Rubies
 		registerRender(ruby_nugget);
