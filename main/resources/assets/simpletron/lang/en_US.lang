@@ -1,0 +1,24 @@
+item.test_item.name=Empty Excalibur
+
+item.ruby_nugget.name=Ruby Nugget
+item.ruby_t1.name=Ruby (Tier I)
+item.ruby_t2.name=Ruby (Tier II)
+item.ruby_t3.name=Ruby (Tier III)
+item.ruby_t4.name=Ruby (Tier IV)
+item.ruby_t5.name=Ruby (Tier V)
+
+item.emerald_nugget.name=Emerald Nugget
+item.emerald_t1.name=Emerald (Tier I)
+item.emerald_t2.name=Emerald (Tier II)
+item.emerald_t3.name=Emerald (Tier III)
+item.emerald_t4.name=Emerald (Tier IV)
+item.emerald_t5.name=Emerald (Tier V)
+
+item.sapphire_nugget.name=Sapphire Nugget
+item.sapphire_t1.name=Sapphire (Tier I)
+item.sapphire_t2.name=Sapphire (Tier II)
+item.sapphire_t3.name=Sapphire (Tier III)
+item.sapphire_t4.name=Sapphire (Tier IV)
+item.sapphire_t5.name=Sapphire (Tier V)
+
+itemGroup.tabSimpletron=Simpletron Mod

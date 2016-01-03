@@ -12,33 +12,28 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
-public class Simpletron
-{
-	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+public class Simpletron {
+    
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
-	
-	public static final SimpletronTab tabSimpletron = new SimpletronTab("tabSimpletron");
-	
+    
+    public static final SimpletronTab tabSimpletron = new SimpletronTab("tabSimpletron");
+    
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
-    	// some code
-    	SimpletronItems.init();
-    	SimpletronItems.register();
-    	SimpletronBlocks.init();
+    public void preInit(FMLPreInitializationEvent event){
+		SimpletronItems.init();
+		SimpletronItems.register();
+		SimpletronBlocks.init();
     	SimpletronBlocks.register();
-    }
-    
+	}
+	
     @EventHandler
-    public void Init(FMLInitializationEvent event)
-    {
-		// some code
-    	proxy.registerRenders();
-    }
-    
+	public void init(FMLInitializationEvent event){
+		proxy.registerRenders();
+	}
+	
     @EventHandler
-    public void postInit(FMLPostInitializationEvent event)
-    {
-    	// some code
-    }
+	public void postInit(FMLPostInitializationEvent event){
+		
+	}
 }
